@@ -20,6 +20,8 @@
 		0422EDF01C86EF1D00B5CBF4 /* ZKTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422EDEF1C86EF1D00B5CBF4 /* ZKTeacher.m */; };
 		0422EDF21C86F0E500B5CBF4 /* ZKTeacherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422EDF11C86F0E500B5CBF4 /* ZKTeacherTest.m */; };
 		047998041C858E5100B1B6AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047998031C858E5100B1B6AA /* main.m */; };
+		04CCEA3A1C87D0FA000C71CE /* ZKAppTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCEA391C87D0FA000C71CE /* ZKAppTest.m */; };
+		04CCEA3D1C87D20F000C71CE /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCEA3C1C87D20F000C71CE /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +56,9 @@
 		047998031C858E5100B1B6AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0479980A1C859C6000B1B6AA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		0479980B1C859EF700B1B6AA /* ZKPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKPerson.h; sourceTree = "<group>"; };
+		04CCEA381C87D0B6000C71CE /* ZKApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKApp.h; sourceTree = "<group>"; };
+		04CCEA391C87D0FA000C71CE /* ZKAppTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAppTest.m; sourceTree = "<group>"; };
+		04CCEA3C1C87D20F000C71CE /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +91,11 @@
 		047998021C858E5100B1B6AA /* OopDemo01 */ = {
 			isa = PBXGroup;
 			children = (
+				04CCEA3B1C87D1D0000C71CE /* test */,
 				047998031C858E5100B1B6AA /* main.m */,
 				0422EDE91C86D75F00B5CBF4 /* ZKUser.m */,
 				0422EDEB1C86E19100B5CBF4 /* Singleton.h */,
+				04CCEA381C87D0B6000C71CE /* ZKApp.h */,
 				0422EDEC1C86E1C800B5CBF4 /* Singleton.m */,
 				0422EDE71C86D0F500B5CBF4 /* ZKStu.m */,
 				0422EDDC1C86908300B5CBF4 /* ZKDog.h */,
@@ -104,8 +111,17 @@
 				0422EDEE1C86EE3E00B5CBF4 /* ZKTeacher.h */,
 				0422EDF11C86F0E500B5CBF4 /* ZKTeacherTest.m */,
 				0422EDEF1C86EF1D00B5CBF4 /* ZKTeacher.m */,
+				04CCEA391C87D0FA000C71CE /* ZKAppTest.m */,
 			);
 			path = OopDemo01;
+			sourceTree = "<group>";
+		};
+		04CCEA3B1C87D1D0000C71CE /* test */ = {
+			isa = PBXGroup;
+			children = (
+				04CCEA3C1C87D20F000C71CE /* Test.m */,
+			);
+			name = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,12 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CCEA3D1C87D20F000C71CE /* Test.m in Sources */,
 				0422EDE81C86D0F500B5CBF4 /* ZKStu.m in Sources */,
 				0422EDE01C8692D800B5CBF4 /* ZKDogTest.m in Sources */,
 				047998041C858E5100B1B6AA /* main.m in Sources */,
 				0422EDF01C86EF1D00B5CBF4 /* ZKTeacher.m in Sources */,
 				0422EDDE1C8690D300B5CBF4 /* ZKDog.m in Sources */,
 				0422EDD91C86748E00B5CBF4 /* ZKPerson.m in Sources */,
+				04CCEA3A1C87D0FA000C71CE /* ZKAppTest.m in Sources */,
 				0422EDE41C86B63B00B5CBF4 /* IdTest.m in Sources */,
 				0422EDF21C86F0E500B5CBF4 /* ZKTeacherTest.m in Sources */,
 				0422EDE21C86990A00B5CBF4 /* ZKReturnSelf.m in Sources */,
