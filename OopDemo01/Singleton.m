@@ -23,10 +23,10 @@ static id instance=nil;
 }
 @end
 
-int main(int argv,char* argc[]){
-    @autoreleasepool {
-        //判断两次实例是否相等
-        NSLog(@"%d",[ZKSingleton instance]==[ZKSingleton instance]);//1
-    }
-    return 0;
-}
+//int main(int argv,char* argc[]){
+//    @autoreleasepool {
+//        //判断两次实例是否相等
+//        NSLog(@"%d",[ZKSingleton instance]==[ZKSingleton instance]);//1
+//    }
+//    return 0;
+//}

@@ -38,10 +38,10 @@
     }
 }
 @end
-
+/*
 int main(int argc,char* argv[]){
     @autoreleasepool {
         VarArgs* va=[[VarArgs alloc] init];
         [va test:@"java",@"oc",@"swift",nil];
     }
-}
+}*/

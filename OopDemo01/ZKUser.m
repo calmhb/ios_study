@@ -26,10 +26,10 @@ static NSString* nation=nil;
 }
 @end
 
-int main(int argc,char* argv[]){
-    @autoreleasepool {
-        [ZKUser setNation:@"中国"];//为ZKUser的类变量赋值
-        NSLog(@"nation的值为：%@",[ZKUser nation]);//中国
-    }
-}
+//int main(int argc,char* argv[]){
+//    @autoreleasepool {
+//        [ZKUser setNation:@"中国"];//为ZKUser的类变量赋值
+//        NSLog(@"nation的值为：%@",[ZKUser nation]);//中国
+//    }
+//}
 
